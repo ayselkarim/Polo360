@@ -1,0 +1,206 @@
+
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, #d5d5d5, #FFF, #FFF, #FFF);
+    padding: 37px 15px 24px 15px;
+}
+menu li{
+    font: 400 .7em Tahoma, sans-serif;
+    color: #b7b7b7;
+    padding: 0 9px 8px 9px;
+}
+menu li a{
+    display: block;
+    font: 700 .9rem Georgia serif;
+    color: #666;
+    text-transform: uppercase;
+}
+#logo img {
+    width: 24.5%;
+}
+main {
+    background: #fff url('../img/mainbg.jpg') repeat-x;
+    padding: 22px 0 0 0;
+}
+#slider {
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 8px;
+    background: url('../img/slide1.jpg') center/cover;
+}
+h1 {
+    padding: 22px;
+    text-align: center;
+    font: bold 1.5em Georgia, serif;
+}
+h2{
+    font: 400 1.3em Georgia, serif;
+    color: #11719e;
+
+}
+h3 {
+    font: 400 1.1em Georgia;
+    color: #444;
+    padding: 6px 0;
+    border-bottom: 1px dashed #d3d3d3;
+}
+h6{
+    font: 400 .8em Helvetica, sans-serif;
+    color: #8c8c8c;
+}
+hr {
+    border: none;
+    height: 1px;
+    background: #e5e5e5;
+}
+.row { padding: 24px 0}
+.poster {
+    padding: 12px 10px; 
+}
+article img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background: #f3f3f3;
+    padding: 6px;
+    margin: 18px 0px;
+}
+article p{
+    font: 400 .85em/1.5 Helvetica;
+    color: #3e3e3e;
+    text-align: justify;
+}
+.btn1, .btn2{
+    display: block;
+    text-align: left;
+    width: 160px;
+    border-radius: 4px;
+    padding: 6px 14px;
+    margin: 10px 0;
+}
+.btn1 span, .btn2 span { float: right;}
+.btn1 {
+    border: 1px solid #d8d8d8;
+    font: 0.8em Helvetica;
+    color: #016999;
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+}
+.btn2 {
+    border: 1px solid #004a80;
+    font: .85em Georgia;
+    color: #fff;
+    background: linear-gradient(to right, #356ca4, #4d84ba, #3d79b6, #306193);
+}
+#icons1 a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-image: url('../img/icons.png');
+}
+#rss { background-position: 0 0; }
+#fcb { background-position: -50px 0; }
+#lin { background-position: -100px 0; }
+#ytb { background-position: -150px 0; }
+#tmb { background-position: -200px 0; }
+#rss:hover { background-position: 0 -50px; }
+#fcb:hover { background-position: -50px -50px; }
+#lin:hover { background-position: -100px -50px; }
+#ytb:hover { background-position: -150px -50px; }
+#tmb:hover { background-position: -200px -50px; }
+
+.poster p{
+    font: 400 .8em/1 Helvetica;
+    margin: 13px 0px 7px;
+    color: #444444;
+}
+input, textarea {
+    border: 1px solid #ccc;
+}
+.news{
+    margin-top: 20px;
+}
+.news h3{
+    font: 700 1.13em "Gill Sans";
+    color: #444444;
+}
+.email, .text {
+    width: 294px;
+    height: 31px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.textarea{
+    width: 294px;
+    height: 132px;
+    border-radius: 4px;
+    margin-top: 15px;
+    resize: none;
+}
+input::placeholder,textarea::placeholder {
+    font-size: 0.6em;
+    color: #d4d4d4;
+    font-family: "Verdana";
+    padding: 12px;
+}
+
+.updates img{
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #cfcfcf;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.updates p{
+    font: 400 0.75em Helvetica;
+    line-height: 14px;
+    color: #444444;
+}
+.updates {
+    border-bottom: 1px dashed #e5e5e5;
+    padding-bottom: 18px;
+}
+footer {
+    height: 170px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+    font: 400 0.7em Helvetica;
+    color: #999;
+}
+.end{
+    padding: 15px;
+}
+.copyright{
+    float: right;
+}
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 940px;
+        margin: auto;
+    }
+     header{
+        text-align: initial;
+    }
+    menu{
+        float: right;
+    }
+    menu li{
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .poster {
+        width: 33.33%;
+        float: left;
+    }
+    .end p{
+        display: block;
+    }
+}
